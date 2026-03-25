@@ -1,9 +1,34 @@
+/* Reset CSS */
+* {
+    /* Margem = EXTERNA */
+    margin: 0;
+}
+
+
 
 body {
-    /*  Coe Fundo */
-    background-color: #vermelho;
+    background-color:  darkred;
+    /* cor texto */
+    color: aliceblue;
+}                                         
 
-    /* Cor textos */
-    color: ;
 
+/* seletor para os <A> */
+a {
+/* Propriedade e VALOR */ 
+text-decoration: none;
+color: aliceblue;
+}
+
+
+
+/* HEADER = Cabeçalho*/
+header{
+    /* ROW */
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #6403037a;
+/* Largura ou Comprimento */
+width: 100%
 }
