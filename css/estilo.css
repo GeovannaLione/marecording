@@ -8,28 +8,38 @@
 
 
 body {
-    background-color:  darkred;
+    background-color: darkred;
     /* cor texto */
     color: aliceblue;
-}                                         
+}
 
 
 /* seletor para os <A> */
 a {
-/* Propriedade e VALOR */ 
-text-decoration: none;
-color: aliceblue;
+    /* Propriedade e VALOR */
+    text-decoration: none;
+    color: aliceblue;
 }
 
 
 
 /* HEADER = Cabeçalho*/
-header{
+header {
     /* ROW */
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: #6403037a;
-/* Largura ou Comprimento */
-width: 100%
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6403037a;
+    /* Largura ou Comprimento */
+    width: 100%
+}
+
+/* UL sistema lista Topicos*/
+
+.menu {
+    list-style: none;
+    /* Lista horizontal */
+    display: flex;
+    /* espaço entre TAGs*/
+    gap: 1rem; /* Um rem */
 }
