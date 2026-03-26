@@ -22,35 +22,35 @@
 
     <!-- Logo -->
     <div class="hearder-Logo">
-      <a href="https://receitas.globo.com/">
+      <a href="#home">
         marecording
       </a>
     </div>
 
     <!-- Menu Desktop / PC -->
-    <nav>
-      <ul>
+    <nav class="menu-desktop">
+      <ul class="Menu">
         <li>
-          <a href="">
-            <span> Home </span>
+          <a href="#home" class="menu-link active">
+            <span class="menu-texto"> Home </span>
           </a>
         </li>
 
         <li>
-          <a href="">
-            <span> Projetos </span>
+          <a href="#filmes" class="menu-link">
+            <span class="menu-texto"> Filmes </span>
           </a>
         </li>
 
         <li>
-          <a href="">
-            <span>Sobre</span>
+          <a href="#sobre" class="menu-link">
+            <span class="menu-texto">Sobre</span>
           </a>
         </li>
 
         <li>
-          <a href="">
-            <span>Contato</span>
+          <a href="#contato" class="menu-link">
+            <span class="menu-texto">Contato</span>
           </a>
         </li>
 
@@ -58,13 +58,13 @@
     </nav>
 
     <!-- Icone Trocar Cor Tema -->
-    <div>
+    <div class="header-toggle">
 
       <!-- Icone Sol ou Lua -->
-      <i class="bi bi-sun"></i>
+      <i class="bi bi-sun" id="toggleTheme"></i>
 
       <!-- Botao Hamburger -->
-      <button>
+      <button class="btn-menu-mobile" id="menuHamburguer">
         <i class="bi bi-list"></i>
       </button>
 
