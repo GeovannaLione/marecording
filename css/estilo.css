@@ -59,8 +59,11 @@ header {
    header {
     /* espaço inteiro */
     padding: 1rem 6rem;
+    justify-content: ;
+    gap: ;
 
    }
+   
     /* NAV */
     .menu-desktop {
         display: flex;
